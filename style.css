@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito&family=Roboto:wght@100;300;400;500;700&display=swap');
 :root{
     --color-black:rgb(20 20 20);
+    --color-light-black:#141414;
     --color-red:#e50914;
     --color-red-transparent:#e50914a9;
     --color-white:#fff;
@@ -109,6 +110,76 @@ a:visited{
 }
 .image{
     max-width: 100%;
-    /* height: 41vh; */
     object-fit: cover;
+}
+
+.product-categories{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+.product-category-title{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: var(--color-white);
+}
+
+.category-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-white);
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.card-align-item-start{
+    align-items: start;
+}
+
+.category-title{
+    background-color: transparent;
+}
+.category-image{
+    margin: 0;
+}
+
+.btn-section{
+    position: absolute;
+    bottom: 1rem;
+    align-self: center;
+    border-radius: 0.3rem;
+}
+
+.ecommerce-footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: var(--color-white);
+    background-color: var(--color-black);
+    width: 100%;
+    height: 4rem;
+}
+
+.text{
+    background-color: var(--color-black);
+    margin-bottom: 7px;
+}
+
+.social-links-group{
+    list-style: none;
+    padding: 0rem;
+
+}
+.social-links{
+    float: left;
+    padding: 5px;
 }
