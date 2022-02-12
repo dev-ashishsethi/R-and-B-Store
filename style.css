@@ -21,7 +21,6 @@
 .nav-container{
     display: flex;
     justify-content: space-between;
-    /* margin-top: 1rem; */
 }
 .nav-title{
     display: inline-block;
@@ -29,6 +28,7 @@
     color: var(--color-red);
     font-size: 3rem;
     font-weight: 600;
+    margin-left: 1rem;
 }
 .nav-title-short{
     color: var(--color-white);
@@ -44,6 +44,7 @@
 }
 .nav-side{
     align-self: center;
+    margin-right: 1rem;
 }
 a{
     text-decoration: none;
@@ -66,13 +67,10 @@ a:visited{
     align-items: center;
 }
 .store-input-box{
-    /* align-self: center; */
     background-color: transparent;
-    /* border-radius: 5px; */
     padding: 6px;
     border: none;
     color: var(--color-white);
-    /* height: 2.5rem; */
     width: 96%
 }
 .store-input-box::placeholder{
